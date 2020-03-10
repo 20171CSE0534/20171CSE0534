@@ -1,0 +1,16 @@
+body{ 
+background-color:yellow;
+}
+.hi{
+color:black;
+margin-left:40px;
+font-size:12px;
+font-family:verdana;
+background-color:rgba(255,0,255,0.3);
+}
+.hello{
+background-color:rgba(255,0,0,0.5);
+color:blue;
+font-size:20px;
+font-family:calibra;
+}
