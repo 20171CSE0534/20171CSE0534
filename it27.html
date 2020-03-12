@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+a:link{
+color:red;
+text-decoration:none;
+background-color:yellow;
+}
+a:visited{
+color:blue;
+text-decoration:none;
+background-color:green;
+}
+a:hover{
+color:red;
+text-decoration:underline;
+background-color:yellow;
+}
+a:active{
+color:red;
+text-decoration:underline;
+background-color:green;
+}
+span.a{
+display:inline;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+span.b{
+display:block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+span.c{
+display:inline-block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+p.er::first-line{
+color:#ff0000;
+font-size:small-caps;
+}
+p.er::first-letter{
+color:blue;
+font-size:xx-large;
+}
+h1::selection{
+color:red;
+background-color:purple;
+}
+
+h1::before{
+content:"read this->";
+}
+
+</style>
+</head>
+<body>
+<a href="http://www.google.com" class="id">CLICK HERE</a>
+<p>A paragraph is a series of <span class="a">related sentences developing a central </span>idea, called the topic. Try to think <span class="b"> about paragraphs in terms of thematic </span>unity: a paragraph is a sentence or <span class="c">a group of sentences that supports one</span>central, unified idea. Paragraphs add one idea at a time to your broader argument.</p>
+<p class="er">a group of sentences that supports one central, unified idea.</p>
+<h1>add this</h1>
+
+</body>
+</html>
